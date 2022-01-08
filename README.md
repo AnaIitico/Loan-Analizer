@@ -117,7 +117,7 @@ Project Link: [https://github.com/AnaIitico/Loan-Analizer](https://github.com/An
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/AnaIitico/Loan-Analizer.svg?style=for-the-badge
-[contributors-url]: https://github.com/kevinclee26/sentiment_analysis_classification/graphs/contributors
+[contributors-url]: https://github.com/AnaIitico/Loan-Analizer/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AnaIitico/Loan-Analizer.svg?style=for-the-badge
 [forks-url]: https://github.com/AnaIitico/Loan-Analizer/network/members
 [stars-shield]: https://img.shields.io/github/stars/AnaIitico/Loan-Analizer.svg?style=for-the-badge
