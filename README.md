@@ -70,7 +70,6 @@ This project was a code challenge in my journey to learn Python. I'm iterating t
 3. Install Python packages
    ```sh
    none
-
    ```
 
 <!-- USAGE EXAMPLES -->
