@@ -81,7 +81,7 @@ def calculate_present_value(future_value, annual_discount_rate, remaining_months
 # @TODO: Use the function to calculate the present value of the new loan given below.
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 present_value = calculate_present_value(new_loan.get("future_value"), .2, new_loan.get("remaining_months"))
-print(f"The present value of the loan is: {present_value:.2f}")
+print(f"The present value of the loan is: ${present_value:.2f}")
 print("")
 
 
@@ -137,7 +137,8 @@ header = ["loan_price", "remaining_months", "repayment_interval", "future_value"
 # Set the output file path
 output_path = Path("challenge_files/loan_analyzer/inexpensive_loans.csv")
 if not os.path.isfile(output_path):
-        print(f'File {output_path} does not exist!')
+    print(f'File {output_path} does not exist!')
+    print('It will be created for you!')
 print('')
 # print(os.path.abspath(output_path))
 
@@ -151,4 +152,4 @@ with open(output_path, 'w', newline = '') as csvfile:
     if os.path.isfile(output_path):
         print(f'File {csvfile.name} was successfully written')
     else:
-        print('File {output_path} was not written')
+        print(f'File {output_path} was not written')
